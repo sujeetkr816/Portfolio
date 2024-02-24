@@ -642,23 +642,9 @@ form input , form textarea{
     font-size: 18px;
     border-radius: 6px;
 }
-#ele {
-    color: rgb(168, 173, 160);
+#element {
+    color: rgb(66, 186, 136);
     font-size: 200%;
 
 }
 
-/* 
-.top{
-    position: fixed;
-    bottom: 50rem;
-    right: 2rem;
-    z-index: 100;
-    display: none;
-} */
-
-
-/* .top img{
-    height: 50%;
-    width: 50%;
-} */
