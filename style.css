@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&family=Sedgwick+Ave&display=swap');
 
 :root{
-    --yellow:#f9ca24;
+    --yellow:#f92436;
 }
 *{
     font-family: 'Nunito', sans-serif;
@@ -194,10 +194,12 @@ header .nav-bar ul li a:hover{
 
 .home{
     display: flex;
-    /* align-items: center;  */
     flex-flow: column;
     padding: 0 15rem;
     justify-content: center;
+    background-image: url("Photos/Bg.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .home h3{
@@ -354,34 +356,6 @@ section{
     width: 100%;
 }
 
-/* .projects .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
-}
-
-.projects .box-container .box{
-    height: 20rem;
-    height: 26rem;
-    border-radius: 1rem;
-    margin: 2rem;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.projects .box-container .box img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-
-}
-
-.projects .box-container .box:hover img{
-    transform: scale(1.2);
-} */
-
 
 .work-list{
     display: grid;
@@ -464,18 +438,7 @@ section{
     /* background: var(--yellow); */
 }
 
-/* .layer i{
-    top: 1.5rem;
-    left: -2.5rem;
-    height: 5rem;
-    width: 5rem;
-    border-radius: 50%;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 2rem;
-    color: #fff;
-    background: var(--yellow);
-} */
+
 
 
 .work:hover img{
