@@ -21,12 +21,12 @@ $(document).ready(function(){
 // email js
 function sendMail(){
     var params = {
-        from_name : document.getElementById("name").value,
-        email_id : document.getElementById("email").value,
-        project : document.getElementById("project").value,
+        name : document.getElementById("name").value,
+        email : document.getElementById("email").value,
+        contact : document.getElementById("contactno").value,
         message : document.getElementById("message").value
     }
-    emailjs.send("service_77bb4sf","template_0hjuc7c",params).then(function (res){
+    emailjs.send("service_12yxvh1","template_p6qedot",params).then(function (res){
         alert("Succesfully sent! "+res.status);
     })
 }
